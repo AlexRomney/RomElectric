@@ -17,10 +17,11 @@ class Navbar extends React.Component {
     return(
       <div>
         <nav>
-          <div className="nav-wrapper">
+          <div className="nav-wrapper" style={{backgroundColor: '#62c7ff'}}>
             <Link to='/' className="brand-logo" style={{paddingLeft: '10px'}}>RomElectric</Link>
             <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
+              <li><Link to='/'> Home </Link></li>
               <li><Link to='/about'> About </Link></li>
               <li><Link to='/contact'> Contact </Link></li>
               <li><Link to='/services'> Services </Link></li>
