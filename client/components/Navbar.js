@@ -18,7 +18,7 @@ class Navbar extends React.Component {
       <div>
         <nav>
           <div className="nav-wrapper" style={{backgroundColor: '#62c7ff'}}>
-            <Link to='/' className="brand-logo" style={{paddingLeft: '10px', color: '#021e55'}}>ROMElectric</Link>
+            <Link to='/' className="brand-logo" style={{paddingLeft: '10px', color: '#021e55'}}>ROM Electric</Link>
             <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
               <li><Link className='nav-tabs' to='/'> Home </Link></li>

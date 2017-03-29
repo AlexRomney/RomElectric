@@ -6,10 +6,14 @@ class About extends React.Component {
   }
 
   componentDidMount() {
-    $('body').css('background-color', 'white');
+    $('body').css('background-image', "url(http://res.cloudinary.com/omash612/image/upload/v1490819196/ElectricPoles_jrymna.jpg)");
     $('body').css('background-size', 'cover');
     $('body').css('bacground-repeat', 'no-repeat');
     $('body').css('height', '100vh');
+  }
+
+  componentWillUnmount() {
+    $('body').css('background-image', 'none');
   }
 
   render() {
