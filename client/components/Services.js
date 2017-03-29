@@ -5,10 +5,17 @@ class Services extends React.Component {
     super(props)
   }
 
+  componentDidMount() {
+    $('body').css('background-color', 'white');
+    $('body').css('background-size', 'cover');
+    $('body').css('bacground-repeat', 'no-repeat');
+    $('body').css('height', '100vh');
+  }
+
   render() {
     return(
       <div>
-        <h1 className='center black-text'> Services </h1>
+        <h1 className='center' style={{color: '#021e55'}}> Services </h1>
       </div>
     );
   }

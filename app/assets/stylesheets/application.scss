@@ -6,3 +6,15 @@ $secondary-color: color("cyan", "base") !default;
 body {
   background-color: #f5f5f5;
 }
+
+.nav-tabs {
+  color: #021e55;
+}
+
+.toasted {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  margin-right: 350px;
+  margin-top: 22px;
+}
